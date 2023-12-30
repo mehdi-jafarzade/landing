@@ -1,0 +1,23 @@
+.active{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    border-bottom: 2px red;
+}
+
+.navbarm{
+   margin-right: 0px;
+   position: absolute; 
+   font-family: 'lalezar';
+}
+
+@media (max-width: 768px) {
+    .nnavbar {
+      display: none;
+    }
+  }
+
+  @font-face {
+    font-family: 'lalezar';
+    src: url('../assets/fonts/Lalezar.ttf');
+  }
